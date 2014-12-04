@@ -393,13 +393,16 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../OI.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/RotateCCW90.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/Drive2Secs.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnAndDrive.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnCWSlightly.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnCCWSlightly.h \
-  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/FollowWall.h
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/FollowWall.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/LowerArm.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/LiftArm.h
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/OI.h:
 
@@ -1185,6 +1188,8 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../OI.h:
 
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h:
+
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/RotateCCW90.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/Drive2Secs.h:
@@ -1198,3 +1203,7 @@ C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnCWSlightly.h:
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnCCWSlightly.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/FollowWall.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/LowerArm.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/LiftArm.h:

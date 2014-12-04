@@ -20,8 +20,19 @@
 // #define RANGE_FINDER_MODULE 1
 #define LEFT_VICTOR 1
 #define RIGHT_VICTOR 2
+#define ARM_SERVO 3
 #define JOYSTICK_1 1
 #define JOYSTICK_2 2
 #define IR_CHANNEL 4
-
+// DIGITAL IO Port numbers on the Digital Sidecar
+#define ABSOLUTEENCODER_CHIPSELECT	4
+#define ABSOLUTEENCODER_CLOCK	3
+#define ABSOLUTEENCODER_MISO	2
+// one data line: master in - slave out (master provide the clock)
+#define ABSOLUTEENCODER_DATA	2
+// The Absolute Encoder wire colors map to the above pins
+// first color from the encoder. second color is the gender change connector.
+#define ABSOLUTEENCODER_GREYGREEN	4
+#define ABSOLUTEENCODER_YELLOWYELLOW	3
+#define ABSOLUTEENCODER_ORANGEBLUE	2
 #endif

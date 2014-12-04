@@ -391,7 +391,10 @@
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Subsystems/TankDrive.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../OI.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
-  C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Robotmap.h
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Robotmap.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Subsystems/Arm.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/TankDrive.h:
 
@@ -1174,3 +1177,9 @@ C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../OI.h:
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Robotmap.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/../Commands/../Subsystems/Arm.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:

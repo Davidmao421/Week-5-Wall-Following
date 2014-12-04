@@ -15,6 +15,8 @@ void _GLOBAL__I__ZN10FollowWallC2Ev();
 
 void _GLOBAL__I__ZN10RotateCW90C2Ev();
 
+void _GLOBAL__I__ZN11AEAT_SampleC2Ev();
+
 void _GLOBAL__I__ZN11CommandBaseC2EPKc();
 
 void _GLOBAL__I__ZN11RotateCCW90C2Ev();
@@ -25,13 +27,21 @@ void _GLOBAL__I__ZN14ExampleCommandC2Ev();
 
 void _GLOBAL__I__ZN14TurnCWSlightlyC2Ev();
 
+void _GLOBAL__I__ZN15AbsoluteEncoderC2EP13DigitalOutputP12DigitalInputS1_();
+
 void _GLOBAL__I__ZN15TurnCCWSlightlyC2Ev();
 
 void _GLOBAL__I__ZN16ExampleSubsystemC2Ev();
 
 void _GLOBAL__I__ZN2OIC2Ev();
 
+void _GLOBAL__I__ZN3ArmC2Ev();
+
 void _GLOBAL__I__ZN5DriveC2Ev();
+
+void _GLOBAL__I__ZN7LiftArmC2Ev();
+
+void _GLOBAL__I__ZN8LowerArmC2Ev();
 
 void _GLOBAL__I__ZN9TankDriveC2Ev();
 
@@ -94,15 +104,20 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN10Drive2SecsC2Ev,
     _GLOBAL__I__ZN10FollowWallC2Ev,
     _GLOBAL__I__ZN10RotateCW90C2Ev,
+    _GLOBAL__I__ZN11AEAT_SampleC2Ev,
     _GLOBAL__I__ZN11CommandBaseC2EPKc,
     _GLOBAL__I__ZN11RotateCCW90C2Ev,
     _GLOBAL__I__ZN12TurnAndDriveC2Ev,
     _GLOBAL__I__ZN14ExampleCommandC2Ev,
     _GLOBAL__I__ZN14TurnCWSlightlyC2Ev,
+    _GLOBAL__I__ZN15AbsoluteEncoderC2EP13DigitalOutputP12DigitalInputS1_,
     _GLOBAL__I__ZN15TurnCCWSlightlyC2Ev,
     _GLOBAL__I__ZN16ExampleSubsystemC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
+    _GLOBAL__I__ZN3ArmC2Ev,
     _GLOBAL__I__ZN5DriveC2Ev,
+    _GLOBAL__I__ZN7LiftArmC2Ev,
+    _GLOBAL__I__ZN8LowerArmC2Ev,
     _GLOBAL__I__ZN9TankDriveC2Ev,
     _GLOBAL__I__ZN12PrintCommandC2EPKc,
     _GLOBAL__I__ZN9Scheduler9_instanceE,
@@ -141,6 +156,8 @@ void _GLOBAL__D__ZN10FollowWallC2Ev();
 
 void _GLOBAL__D__ZN10RotateCW90C2Ev();
 
+void _GLOBAL__D__ZN11AEAT_SampleC2Ev();
+
 void _GLOBAL__D__ZN11CommandBaseC2EPKc();
 
 void _GLOBAL__D__ZN11RotateCCW90C2Ev();
@@ -151,13 +168,21 @@ void _GLOBAL__D__ZN14ExampleCommandC2Ev();
 
 void _GLOBAL__D__ZN14TurnCWSlightlyC2Ev();
 
+void _GLOBAL__D__ZN15AbsoluteEncoderC2EP13DigitalOutputP12DigitalInputS1_();
+
 void _GLOBAL__D__ZN15TurnCCWSlightlyC2Ev();
 
 void _GLOBAL__D__ZN16ExampleSubsystemC2Ev();
 
 void _GLOBAL__D__ZN2OIC2Ev();
 
+void _GLOBAL__D__ZN3ArmC2Ev();
+
 void _GLOBAL__D__ZN5DriveC2Ev();
+
+void _GLOBAL__D__ZN7LiftArmC2Ev();
+
+void _GLOBAL__D__ZN8LowerArmC2Ev();
 
 void _GLOBAL__D__ZN9TankDriveC2Ev();
 
@@ -210,15 +235,20 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN10Drive2SecsC2Ev,
     _GLOBAL__D__ZN10FollowWallC2Ev,
     _GLOBAL__D__ZN10RotateCW90C2Ev,
+    _GLOBAL__D__ZN11AEAT_SampleC2Ev,
     _GLOBAL__D__ZN11CommandBaseC2EPKc,
     _GLOBAL__D__ZN11RotateCCW90C2Ev,
     _GLOBAL__D__ZN12TurnAndDriveC2Ev,
     _GLOBAL__D__ZN14ExampleCommandC2Ev,
     _GLOBAL__D__ZN14TurnCWSlightlyC2Ev,
+    _GLOBAL__D__ZN15AbsoluteEncoderC2EP13DigitalOutputP12DigitalInputS1_,
     _GLOBAL__D__ZN15TurnCCWSlightlyC2Ev,
     _GLOBAL__D__ZN16ExampleSubsystemC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
+    _GLOBAL__D__ZN3ArmC2Ev,
     _GLOBAL__D__ZN5DriveC2Ev,
+    _GLOBAL__D__ZN7LiftArmC2Ev,
+    _GLOBAL__D__ZN8LowerArmC2Ev,
     _GLOBAL__D__ZN9TankDriveC2Ev,
     _GLOBAL__D__ZN9Scheduler9_instanceE,
     _GLOBAL__D_wpi_error_s_ModuleIndexOutOfRange,

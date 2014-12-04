@@ -3,10 +3,19 @@
 #include "Commands/Drive.h"
 #include "CommandBase.h"
 
+// testing the Magnetic Absolute Encoder
+#include "RobotMap.h"
+#include "Subsystems/AbsoluteEncoder.h"
+
 class CommandBasedRobot : public IterativeRobot {
 private:
 	Command *driveCommand;
 	LiveWindow *lw;
+	
+	DigitalInput  data( ABSOLUTEENCODER_MISO );
+	DigitalOutput clock( ABSOLUTEENCODER_CLOCK );
+	DigitalOutput chipselect( ABSOLUTEENCODER_CHIPSELECT ); 
+	AbsoluteEncoder CatapultTestEncoder( clock, data, chipselect );
 	
 	virtual void RobotInit() {
 		CommandBase::init();
@@ -32,6 +41,7 @@ private:
 	virtual void TeleopPeriodic() {
 		Scheduler::GetInstance()->Run();
 		SmartDashboard::PutNumber("IR Voltage", CommandBase::tankDrive->getIRVoltage());
+		SmartDashboard::PutNumber("Servo", CommandBase::arm->get());
 	}
 	
 	virtual void TestPeriodic() {

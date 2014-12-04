@@ -392,6 +392,7 @@
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../OI.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/Drive2Secs.h
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/TurnAndDrive.h:
@@ -1175,5 +1176,7 @@ C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../OI.h:
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/Drive2Secs.h:

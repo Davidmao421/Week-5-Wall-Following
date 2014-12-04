@@ -11,6 +11,7 @@ CommandBase::CommandBase() : Command() {
 // Initialize a single static instance of all of your subsystems to NULL
 TankDrive* CommandBase::tankDrive = NULL;
 OI* CommandBase::oi = NULL;
+Arm* CommandBase::arm = NULL;
 
 void CommandBase::init() {
     // Create a single static instance of all of your subsystems. The following
@@ -18,4 +19,6 @@ void CommandBase::init() {
 	tankDrive = new TankDrive();
 	
 	oi = new OI();
+	
+	arm = new Arm();
 }

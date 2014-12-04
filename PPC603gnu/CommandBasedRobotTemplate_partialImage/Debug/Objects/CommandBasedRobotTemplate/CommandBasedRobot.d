@@ -394,7 +394,16 @@
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../OI.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h \
-  C:/WindRiver/workspace/CommandBasedRobotTemplate/CommandBase.h
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/CommandBase.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/RobotMap.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/AbsoluteEncoder.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/AEAT6012.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILIB.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/SPI.h \
+  C:/WindRiver/vxworks-6.3/target/h/WPILib/SensorBase.h
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
@@ -1182,4 +1191,22 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h:
 
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h:
+
 C:/WindRiver/workspace/CommandBasedRobotTemplate/CommandBase.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/RobotMap.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/AbsoluteEncoder.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/Subsystem.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/AEAT6012.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILIB.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/SPI.h:
+
+C:/WindRiver/vxworks-6.3/target/h/WPILib/SensorBase.h:

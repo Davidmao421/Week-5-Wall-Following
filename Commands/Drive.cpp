@@ -13,7 +13,7 @@ void Drive::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void Drive::Execute() {
-	tankDrive->tankDrive(oi->getLeftY() * SmartDashbord::, oi->getRightY());
+	tankDrive->tankDrive(0.75 * oi->getLeftY(),0.75 * oi->getRightY());
 }
 // Make this return true when this Command no longer needs to run execute()
 bool Drive::IsFinished() {
