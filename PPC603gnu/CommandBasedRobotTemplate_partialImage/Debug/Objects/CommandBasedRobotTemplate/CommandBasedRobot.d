@@ -395,6 +395,7 @@
   C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h \
+  C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Catapult.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/CommandBase.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/RobotMap.h \
   C:/WindRiver/workspace/CommandBasedRobotTemplate/Subsystems/AbsoluteEncoder.h \
@@ -1192,6 +1193,8 @@ C:/WindRiver/vxworks-6.3/target/h/WPILib/WPILib.h:
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Robotmap.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Arm.h:
+
+C:/WindRiver/workspace/CommandBasedRobotTemplate/Commands/../Subsystems/Catapult.h:
 
 C:/WindRiver/workspace/CommandBasedRobotTemplate/CommandBase.h:
 

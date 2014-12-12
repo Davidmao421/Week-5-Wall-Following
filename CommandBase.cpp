@@ -12,13 +12,13 @@ CommandBase::CommandBase() : Command() {
 TankDrive* CommandBase::tankDrive = NULL;
 OI* CommandBase::oi = NULL;
 Arm* CommandBase::arm = NULL;
+Catapult* CommandBase::catapult = NULL;
 
 void CommandBase::init() {
     // Create a single static instance of all of your subsystems. The following
 	// line should be repeated for each subsystem in the project.
 	tankDrive = new TankDrive();
-	
 	oi = new OI();
-	
 	arm = new Arm();
+	catapult = new Catapult();
 }

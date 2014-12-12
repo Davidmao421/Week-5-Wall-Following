@@ -21,6 +21,7 @@
 #define LEFT_VICTOR 1
 #define RIGHT_VICTOR 2
 #define ARM_SERVO 3
+#define CATAPULT_MOTOR 5
 #define JOYSTICK_1 1
 #define JOYSTICK_2 2
 #define IR_CHANNEL 4

@@ -5,6 +5,7 @@
 #include "Subsystems/TankDrive.h"
 #include "OI.h"
 #include "Subsystems/Arm.h"
+#include "Subsystems/Catapult.h"
 
 
 
@@ -22,6 +23,7 @@ public:
 	static TankDrive* tankDrive;
 	static OI *oi;
 	static Arm* arm;
+	static Catapult* catapult;
 };
 
 #endif

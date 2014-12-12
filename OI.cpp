@@ -8,6 +8,7 @@
 #include "Commands/FollowWall.h"
 #include "Commands/LowerArm.h"
 #include "Commands/LiftArm.h"
+#include "Commands/Shoot.h"
 
 OI::OI() {
 	left = new Joystick(JOYSTICK_1);
@@ -21,14 +22,14 @@ OI::OI() {
 	Button* button7 = new JoystickButton(left, 4);
 	Button* button8 = new JoystickButton (left, 1);
 	Button* button9 = new JoystickButton (left, 2);
-	button1->WhenPressed(new RotateCW90());
+	button1->WhenPressed(new Shoot());
 	button2->WhenPressed(new RotateCCW90());
 	button3->WhenPressed(new Drive2Secs());
 	button4->WhenPressed(new TurnAndDrive());
 	button5->WhenPressed(new TurnCWSlightly());
 	button6->WhenPressed(new TurnCCWSlightly());
 	button7->WhileHeld(new FollowWall());
-	button8->WhenPressed(new LowerArm());
+	button8->WhenPressed(new Shoot());
 	button9->WhenPressed(new LiftArm());
 }
 /*while (1){

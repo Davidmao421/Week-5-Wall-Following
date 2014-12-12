@@ -39,7 +39,11 @@ void _GLOBAL__I__ZN3ArmC2Ev();
 
 void _GLOBAL__I__ZN5DriveC2Ev();
 
+void _GLOBAL__I__ZN5ShootC2Ev();
+
 void _GLOBAL__I__ZN7LiftArmC2Ev();
+
+void _GLOBAL__I__ZN8CatapultC2Ev();
 
 void _GLOBAL__I__ZN8LowerArmC2Ev();
 
@@ -116,7 +120,9 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN3ArmC2Ev,
     _GLOBAL__I__ZN5DriveC2Ev,
+    _GLOBAL__I__ZN5ShootC2Ev,
     _GLOBAL__I__ZN7LiftArmC2Ev,
+    _GLOBAL__I__ZN8CatapultC2Ev,
     _GLOBAL__I__ZN8LowerArmC2Ev,
     _GLOBAL__I__ZN9TankDriveC2Ev,
     _GLOBAL__I__ZN12PrintCommandC2EPKc,
@@ -180,7 +186,11 @@ void _GLOBAL__D__ZN3ArmC2Ev();
 
 void _GLOBAL__D__ZN5DriveC2Ev();
 
+void _GLOBAL__D__ZN5ShootC2Ev();
+
 void _GLOBAL__D__ZN7LiftArmC2Ev();
+
+void _GLOBAL__D__ZN8CatapultC2Ev();
 
 void _GLOBAL__D__ZN8LowerArmC2Ev();
 
@@ -247,7 +257,9 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN3ArmC2Ev,
     _GLOBAL__D__ZN5DriveC2Ev,
+    _GLOBAL__D__ZN5ShootC2Ev,
     _GLOBAL__D__ZN7LiftArmC2Ev,
+    _GLOBAL__D__ZN8CatapultC2Ev,
     _GLOBAL__D__ZN8LowerArmC2Ev,
     _GLOBAL__D__ZN9TankDriveC2Ev,
     _GLOBAL__D__ZN9Scheduler9_instanceE,

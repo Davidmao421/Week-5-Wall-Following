@@ -11,12 +11,12 @@ class CommandBasedRobot : public IterativeRobot {
 private:
 	Command *driveCommand;
 	LiveWindow *lw;
-	
+	/*
 	DigitalInput  data( ABSOLUTEENCODER_MISO );
 	DigitalOutput clock( ABSOLUTEENCODER_CLOCK );
 	DigitalOutput chipselect( ABSOLUTEENCODER_CHIPSELECT ); 
 	AbsoluteEncoder CatapultTestEncoder( clock, data, chipselect );
-	
+	*/
 	virtual void RobotInit() {
 		CommandBase::init();
 		lw = LiveWindow::GetInstance();
